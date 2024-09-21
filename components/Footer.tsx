@@ -50,22 +50,22 @@
 //             <Link href="/licensing" className={twMerge(linkClassName, isLicensing && "underline")}>
 //               Licensing
 //             </Link>
-//           </li>
-//           <li>
-//             <Link href="/contact" className={twMerge(linkClassName, isContact && "underline")}>
-//               Contact
-//             </Link>
+//            </li>
+//            <li>
+//              <Link href="/contact" className={twMerge(linkClassName, isContact && "underline")}>
+//                Contact
+//          </Link>
 //           </li>
 //         </ul>
-//       </div>
+//      </div>
 //       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-//       <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+//        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
 //         © 2022{" "}
-//         <a href={companySiteUrl} className="hover:underline">
-//           use-cardano™
+//        <a href={companySiteUrl} className="hover:underline">
+//          use-cardano™
 //         </a>
-//         . All Rights Reserved.
+//       . All Rights Reserved.
 //       </span>
 //     </footer>
-//   )
+//  )
 // }
