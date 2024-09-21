@@ -13,6 +13,10 @@ import pta from 'assets/pta.jpg';
 import minh from 'assets/minh.jpg';
 import giap from 'assets/giap.jpg';
 import trong from 'assets/trong.jpg';
+import anh1 from 'assets/anh1.jpg';
+import anh2 from 'assets/anh2.jpg';
+import anh3 from 'assets/anh3.jpg';
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -173,8 +177,8 @@ export default function Home() {
           borderRadius: "15px",
         }}
       >
-        <h1 style={{ justifyContent: "center" }}>Đánh giá của bạn</h1>
-        <h3 style={{ marginBottom: "15px", marginTop: "10px" }}>
+        <h1 style={{ justifyContent: "center",fontSize:"30px" }}>Đánh giá của bạn</h1>
+        <h3 style={{ marginBottom: "15px", marginTop: "10px",fontSize:"15px" }}>
           Chúng tôi rất mong nhận được ý kiến đóng góp từ bạn để cải thiện dịch vụ tốt hơn.
         </h3>
 
@@ -203,7 +207,8 @@ export default function Home() {
           <br />
           <br />
 
-          <button type="submit" >Gửi đánh giá</button>
+          <button type="submit" style={{ background: 'green' }}>Gửi đánh giá</button>
+
         </form>
       </div>
 
@@ -219,11 +224,11 @@ export default function Home() {
             </p>
 
             <div className="images">
-            <Image src={img3} width={528} height={528} />
+            <Image src={anh1} width={528} height={528} />
 
               <div className="info">
-                <h3>john doe 1</h3>
-                <span>Ngày : 11 2024</span>
+                <h3>Lê Minh Tuấn</h3>
+                <span>Ngày : 20/11/2024</span>
               </div>
             </div>
           </div>
@@ -235,11 +240,11 @@ export default function Home() {
             </p>
 
             <div className="images">
-            <Image src={img2} width={528} height={528} />
+            <Image src={anh2} width={528} height={528} />
 
               <div className="info">
-                <h3>john doe 2</h3>
-                <span>Ngày : 12 2024</span>
+                <h3>Nguyễn Văn Hưng</h3>
+                <span>Ngày : 26/12/2024</span>
               </div>
             </div>
           </div>
@@ -251,11 +256,11 @@ export default function Home() {
             </p>
 
             <div className="images">
-            <Image src={img2} width={528} height={528} />
+            <Image src={anh3} width={528} height={528} />
 
               <div className="info">
-                <h3>john doe 3</h3>
-                <span>Ngày : 12 2024</span>
+                <h3>Nguyễn Minh Khôi</h3>
+                <span>Ngày : 5/12/2024</span>
               </div>
             </div>
           </div>
@@ -263,7 +268,6 @@ export default function Home() {
         </div>
       </section>
       <section id="blog" className="blog">
-        <h1 className="heading">Sự kiện</h1>
         <h3 className="title">Sự kiện đề xuất</h3>
 
         <div className="box-container">
